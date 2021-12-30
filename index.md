@@ -33,87 +33,14 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 
 For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. Slightly more challenging are words like 'member', 'question' and 'bring' which require you to layer your fingers while turning your wrists inward. And the nearly impossible to avoid SFB's are in words like 'answer', 'yield' or 'phalanx'. 
 
-### Other design considerations worth noting...
+### Inward Finger Rolls
 
-Inward rolls were an additional design priority for this layout. When rolling your fingers on a desk, it's more likely that you roll them from your pinky finger to your index instead of the other way around. And so with Tukey, keys were placed laterally with letters that are more likely to be at the beginning of words on the outermost ends of the board. For example, on the home row it's very easy to type 'and' and 'the', the most common words in english, by naturally rolling your fingers inward. To get a better feel for how inward rolls can improve your typing experience, try typing: 
+Inward rolls were an additional design priority for this layout. When rolling your fingers on a desk, it's more likely that you roll them from your pinky finger to your index instead of the other way around. And so with Tukey, keys were placed in prime locations on the home row based on their frequency, but they were also placed laterally with letters that are more likely to be at the beginning of words on the outermost ends of the board. For example, on the home row it's very easy to type 'and' and 'the', the most common words in english, by naturally rolling your fingers inward. To get a better feel for how Tukey's inward rolls can improve your typing experience, try typing: 
 
 "The old friends from France held hands"
 
-Sadly, there are still a small number of SFB's that I could not address with duplicate letters or unconventional ergonomics. These are expressed in the table below, along with their relative percent frequencies:
+### Tradeoffs
 
-| Tukey SFB | Percent Frequency |
-| ------ | ----------------- |
-| WS | 0.035% |
-| SW | 0.024% |
-| NX | 0.003% |
-| DC | 0.003% |
-| CD | 0.002% |
-| AQ | 0.002% |
-| HF | 0.002% |
-| ZP | 0.000% |
-| JH | 0.000% |
-| FJ | 0.000% |
-| PZ | 0.000% |
-| XN | 0.000% |
-| QA | 0.000% |
-| FH | 0.000% |
-| HJ | 0.000% |
-| TOTAL | 0.071% |
+With a smaller number of physical keys, more complex layering schemas are necessary to achieve the full breadth of key inputs needed for typing. Admittedly, the Tukey layout does not align with the modern trend in custom keyboard design to reduce the number of keys on the keyboard as much as possible (I think the record is 34 keys as of late 2020). In my opinion, the pursuit of the smallest keyboard produces more complex layouts, and there's a subjective point for any user where its complexity makes the keyboard too difficult to use. For me, I believe in a more balanced approach which accepts some complexity in layering while trying to preserve a maximum finger travel distance of 1U away from the home position. But it stops at 40% of a normal keyboard. Beyond that point my main design principle of not typing two keys with the same finger becomes very difficult to mitigate. 
 
-By comparison, we can apply the same ergonomic strategies to Colemak Mod-DH which reduces its SFB frequency to 3.018% (this includes the aforementioned 2.5% duplicate key frequency of course). Notable conflicts with Colemak Mod-DH include 'UE' and 'EU', 'PT' and 'TP', 'WR' and 'RW' among others. 
-
-| Colemak Mod-DH SFB | Percent Frequency |
-| ------ | ----------------- |
-| UE | 0.147% |
-| PT | 0.106% |
-| NL | 0.064% |
-| WR | 0.031% |
-| EU | 0.031% |
-| YI | 0.029% |
-| SF | 0.017% |
-| RW | 0.013% |
-| LN | 0.006% |
-| FS | 0.006% |
-| TP | 0.004% |
-| AQ | 0.002% |
-| IY | 0.000% |
-| QZ | 0.000% |
-| XW | 0.000% |
-| QA | 0.000% |
-| ZQ | 0.000% |
-| WX | 0.000% |
-| TOTAL | 0.456% |
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mkstp/tukey/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+What results is the absence of common punctuation like ',' and '.' on the base layer. 
