@@ -18,7 +18,7 @@ The chief justification for duplicating keys at different positions on the keybo
 
 ### The Repeat Key
 
-The repeat key decouples same finger bigrams from all double letter bigrams with the exception of 'AA' and 'QQ' which require extra left pinky finger motion. This key will store and repeat any previous action inputted to the keyboard, which means it also works for macros like copy/paste and other shortcuts. With it, you will find that your fingers glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands.  The QMK implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
+The repeat key decouples same finger bigrams from all double letter bigrams with the exception of 'AA' and 'QQ' which require extra left pinky finger motion. This key will repeat any previous action inputted to the keyboard, which means it also works for macros like copy/paste and other shortcuts. With it, you will find that your fingers glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands. The QMK implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
 
 ### O L R and T
 
@@ -27,11 +27,17 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 - 'O' addresses the 'EO' and 'OA' bigram conflicts, which helps with words like 'people', 'does', and 'board'. 
 - 'L' helps with 'LE' and 'LN' when typing words like 'only', 'learn', and 'leave'
 - 'R' helps with 'RI' and 'RS' when typing words like 'right', 'describe', and 'person' 
-- 'T' helps with 'PT' and 'TE' when typing words like 'accept', 'option', and 'captain'
+- 'T' helps with 'PT' when typing words like 'accept', 'option', and 'captain'
 
 ### Unconventional Ergonomics
 
-For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. Slightly more challenging are words like 'member', 'question' or 'yield' which may require you to layer your fingers while turning your wrists inward. And the impossible to avoid SFB's are in words like 'answer' and 'spanx'. 
+For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. Slightly more challenging are words like 'member', 'question' and 'bring' which require you to layer your fingers while turning your wrists inward. And the nearly impossible to avoid SFB's are in words like 'answer', 'yield' or 'phalanx'. 
+
+### Other design considerations worth noting...
+
+Inward rolls were an additional design priority for this layout. When rolling your fingers on a desk, it's more likely that you roll them from your pinky finger to your index instead of the other way around. And so with Tukey, keys were placed laterally with letters that are more likely to be at the beginning of words on the outermost ends of the board. For example, on the home row it's very easy to type 'and' and 'the', the most common words in english, by naturally rolling your fingers inward. To get a better feel for how inward rolls can improve your typing experience, try typing: 
+
+"The old friends from France held hands"
 
 Sadly, there are still a small number of SFB's that I could not address with duplicate letters or unconventional ergonomics. These are expressed in the table below, along with their relative percent frequencies:
 
