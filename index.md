@@ -1,6 +1,6 @@
 ## The Tukey Keyboard Layout - BASE LAYER
 
-Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a minimum 42key, multi-layered, QMK compatible ortholinear keyboard like the [Planck](https://olkb.com/collections/planck).
+Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a minimum 42 key, multi-layered, QMK compatible ortholinear keyboard like the [Planck](https://olkb.com/collections/planck).
 
 ![image](letters_layout.png)
 
@@ -41,6 +41,6 @@ Inward rolls were an additional design priority for this layout. When rolling yo
 
 ### Tradeoffs
 
-With a smaller number of physical keys, more complex layering schemas are necessary to achieve the full breadth of key inputs needed for typing. Admittedly, the Tukey layout does not align with the modern trend in custom keyboard design to reduce the number of keys on the keyboard as much as possible (I think the record is 34 keys as of late 2020). In my opinion, the pursuit of the smallest keyboard produces more complex layouts, and there's a subjective point for any user where its complexity makes the keyboard too difficult to use. For me, I believe in a more balanced approach which accepts some complexity in layering while trying to preserve a maximum finger travel distance of 1U away from the home position. But it stops at 40% of a normal keyboard. Beyond that point my main design principle of not typing two keys with the same finger becomes very difficult to mitigate. 
+With a smaller number of physical keys, more complex layering schemas are necessary to achieve the full breadth of key inputs needed for typing. Admittedly, the Tukey layout does not align with the modern trend in custom keyboard design to reduce the number of keys on the keyboard as much as possible (I think the record is 34 keys as of late 2020). In my opinion, the pursuit of the smallest keyboard produces more complex layouts, and there's a subjective point for any user where its complexity makes the keyboard too difficult to use. For me, I believe in a more balanced approach which accepts some complexity in layering while trying to preserve a maximum finger travel distance of 1U away from the home position. But it stops at 40% of a normal keyboard. Beyond that point my main design principle of not typing two keys with the same finger becomes difficult to manage. 
 
-What results is the absence of common punctuation like ',' and '.' on the base layer. 
+Another problem with this layout is labels for keys. In the economics of keyboard manufacturing, there is no keyset which includes duplicate letters like 'O', 'L', and 'R'. Extra keys need to be purchased separately which is impractical. And so, any keyboard which implements a Tukey layout might not have labels which accurately reflect their assigned key. This is a problem for learning this layout, which is already dramatically different from QWERTY. However, once this layout is memorized, I would argue there's no more need for labels since you're not supposed to be looking at your fingers when you type anyway. 
