@@ -1,4 +1,4 @@
-## The Tukey Keyboard Layout
+## The Tukey Keyboard Layout - BASE LAYER
 
 Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a minimum 42key, multi-layered, QMK compatible ortholinear keyboard like the [Planck](https://olkb.com/collections/planck).
 
@@ -31,7 +31,7 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 
 For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. Slightly more challenging are words like 'member', 'question' or 'yield' which may require you to layer your fingers while turning your wrists inward.  
 
-Sadly, there are still a good number of SFB's that I could not address with duplicate letters or creative ergonomics. These are expressed in the table below, along with their relative percent frequencies:
+Sadly, there are still a good number of SFB's that I could not address with duplicate letters or 'creative ergonomics'. These are expressed in the table below, along with their relative percent frequencies:
 
 | Bigram | Percent Frequency |
 | ------ | ----------------- |
@@ -51,6 +51,8 @@ Sadly, there are still a good number of SFB's that I could not address with dupl
 | FH | 0.000% |
 | HJ | 0.000% |
 | TOTAL | 0.071% |
+
+By comparison, we can apply the same 'creative ergonomic' strategies to Colemak Mod-DH which reduces its SFB frequency to 3.018% (this includes the aforementioned 2.5% duplicate key frequency of course). Which makes the Tukey layout arguably better than Colemak for SFB's. Notable conflicts with Colemak Mod-DH include 'UE' and 'EU', 'PT' and 'TP', 'WR' and 'RW' among others. 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
