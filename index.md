@@ -37,6 +37,20 @@ Sadly, there are still a good number of SFB's that I could not address with dupl
 | ------ | ----------------- |
 | WS | 0.035% |
 | SW | 0.024% |
+| NX | 0.003% |
+| DC | 0.003% |
+| CD | 0.002% |
+| AQ | 0.002% |
+| HF | 0.002% |
+| ZP | 0.000% |
+| JH | 0.000% |
+| FJ | 0.000% |
+| PZ | 0.000% |
+| XN | 0.000% |
+| QA | 0.000% |
+| FH | 0.000% |
+| HJ | 0.000% |
+| TOTAL | 0.071% |
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
