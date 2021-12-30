@@ -29,6 +29,15 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 - 'R' helps with 'RI' and 'RS' when typing words like 'right', 'describe', and 'person' 
 - 'T' helps with 'PT' and 'TE' when typing words like 'accept', 'option', and 'captain'
 
+For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. Slightly more challenging are words like 'member', 'question' or 'yield' which may require you to layer your fingers while turning your wrists inward.  
+
+Sadly, there are still a good number of SFB's that I could not address with duplicate letters or creative ergonomics. These are expressed in the table below, along with their relative percent frequencies:
+
+| Bigram | Percent Frequency |
+| ------ | ----------------- |
+| WS | 0.035% |
+| SW | 0.024% |
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
