@@ -18,13 +18,13 @@ The chief justification for duplicating keys at different positions on the keybo
 
 ### The Repeat Key
 
-The repeat key addresses all double letter bigrams with the exception of 'AA' and 'QQ' which require extra left pinky finger motion. With it, you will find that your hands glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands. Implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
+The repeat key addresses all double letter bigrams with the exception of 'AA' and 'QQ' which require extra left pinky finger motion. With it, you will find that your hands glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands. This key will store and repeat any previous action inputted to the keyboard, which means it also works for macros like copy/paste and other shortcuts. Implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
 
 ### O L R and T
 
-So if the repeat key exists to type DLB's, then why are there other duplicate keys still scattered over the keyboard? The reason for that is the position of select duplicate letters helps to further reduce SFB's to near zero for a seamless typing experience. For each duplicate key: 
+So if the repeat key exists to type DLB's, then why are there other duplicate keys still scattered over the keyboard? That's because the position of select duplicate letters helps to further reduce SFB's to near zero for a seamless typing experience. For each duplicate key: 
 
-- 'O' addresses the 'EO' and 'OA' bigram conflict, which helps with words like 'people', 'does', and 'board'. 
+- 'O' addresses the 'EO' and 'OA' bigram conflicts, which helps with words like 'people', 'does', and 'board'. 
 - 'L' helps with 'LE' and 'LN' when typing words like 'only', 'learn', and 'leave'
 - 'R' helps with 'RI' and 'RS' when typing words like 'right', 'describe', and 'person' 
 - 'T' helps with 'PT' and 'TE' when typing words like 'accept', 'option', and 'captain'
