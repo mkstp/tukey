@@ -1,6 +1,6 @@
 ## The Tukey Keyboard Layout
 
-Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a minimum 48key, multi-layered, QMK compatible ortholinear keyboard like the [Planck](https://olkb.com/collections/planck).
+Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a minimum 42key, multi-layered, QMK compatible ortholinear keyboard like the [Planck](https://olkb.com/collections/planck).
 
 ![image](letters_layout.png)
 
@@ -10,9 +10,22 @@ This duplication of select letters, the repeat key, and the data driven principl
 
 ### Why Duplicate Keys?
 
-Many layouts are designed to minimize same finger bigrams (SFB's). That is, keys typed sequentially using the same finger. On a QWERTY keyboard for example, 'CE' is a SFB, so is 'DE' and 'RT'. When typing, a SFB takes longer to type than keys typed sequentially using two different fingers. Comparing the two different types of actions, we see that the SFB requires you to press the first key, then raise your finger before moving to and pressing the next key. With two different fingers, pressing a key and positioning your other finger to press the next key can happen at the same time, which results in faster, smoother, and more accurate typing. This is the chief justification for duplicating keys at defferent positions on the keyboard.
+Many layouts are designed to minimize same finger bigrams (SFB's). That is, keys typed sequentially using the same finger. On a QWERTY keyboard for example, 'CE' is a SFB, so is 'DE' and 'RT'. When typing, a SFB takes longer to execute than keys typed sequentially using two different fingers. Comparing the two different types of actions, we see that the SFB requires you to press the first key, then raise your finger before moving to and pressing the next key. With two different fingers, pressing a key and positioning your other finger to press the next key can happen at the same time, which results in faster, smoother, and more accurate typing. This is the chief justification for duplicating keys at defferent positions on the keyboard.
 
 Double letter bigrams (DLB's) like 'OO' and 'LL' are also, by convention, same finger bigrams. And as a result of this convention they are inefficient to type. They are also extremely common. In fact, in the aggregate, DLB's account for over 2.5% of all bigrams typed in the english language. That makes them the third most common bigram after 'TH' (3.5%) and 'HE' (3.1%). 
+
+### The Repeat Key
+
+The repeat key addresses all double letter bigrams with the exception of 'AA' and 'QQ' which require extra left pinky finger motion. With it, you will find that your hands glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands. Implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
+
+### O L R and T
+
+So if the repeat key exists to type DLB's, then why are there other duplicate keys still scattered over the keyboard? The reason for that is the position of select duplicate letters helps to further reduce SFB's to near zero for a seamless typing experience. For each duplicate key: 
+
+- 'O' addresses the 'EO' and 'OA' bigram conflict, which helps with words like 'people', 'does', and 'board'. 
+- 'L' helps with 'LE' and 'LN' when typing words like 'only', 'learn', and 'leave'
+- 'R' helps with 'RI' and 'RS' when typing words like 'right', 'describe', and 'person' 
+- 'T' helps with 'PT' and 'TE' when typing words like 'accept', 'option', and 'captain'
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
