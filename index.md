@@ -1,6 +1,10 @@
 ## The Tukey Keyboard Layout
 
+Named after the famous statistician John Tukey, (pronounced too-key). This layout is designed for a minimum 48key, multi-layered, QMK compatible ortholinear keyboard like the Planck.
+
 ![image](letters_layout.png)
+
+The Tukey layout does away with the assumption that each letter/symbol occupies only one position on the keyboard. At the base layer for example, the letters 'O', 'R', 'L', and 'T' appear twice. There is also the addition of a dedicated 'REPEAT' key in the top left corner of the keyboard. This duplication of select letters, and the data driven princples that support it's design, is what inspired the name 'Tukey'.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
