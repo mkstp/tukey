@@ -1,6 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/mkstp/tukey/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## The Tukey Keyboard Layout
 
 ![image](letters_layout.png)
 
