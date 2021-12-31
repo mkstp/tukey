@@ -46,3 +46,18 @@ With a smaller number of physical keys, more complex layering schemas are necess
 Another problem with this layout is labels for keys. In the economics of keyboard manufacturing, there is no keyset which includes duplicate letters like 'O', 'L', and 'R'. Extra keys need to be purchased separately which is impractical. And so, any keyboard which implements a Tukey layout might not have labels which accurately reflect their assigned key. This is a problem for learning this layout, which is already dramatically different from QWERTY. However, once this layout is memorized, I would argue there's no more need for labels since you're not supposed to be looking at your fingers when you type anyway. 
 
 With this layout, there are now multiple ways to type the same thing. That's both a blessing and a curse. In a word like 'follow' for example, you might choose to type the first 'o' with your right hand, and the other 'o' with your left hand. Whatever you decide, Tukey requires that you make the extra effort to train your muscle memory word by word which is mentally exhausting while starting out. And so the learning curve for Tukey is very steep. But the reward, even at speeds of 40wpm, is arguably one of the smoothest typing experiences out there.
+
+## The Tukey Keyboard Layout - SYMBOLS LAYER
+
+![image](symbols_layout.png)
+
+SFB's are not as much of a problem with sequentially typed symbols compared to letters. But they still exist. For many programming languages, there are certain conventions that govern the use of symbols, like for example a semi-colon at the end of a statement, or nested brackets {()}, or += etc. Here's a list of rules that helped me come up with the designs for the symbols layer
+
+- Most common punctuation keys in the home row
+- No keys in this layer require the shift key
+- Inward roles that facilitate nested brackets 
+- Bracket section is in proximity to the repeat key so things like ))))) can be typed very quickly
+- Semi-colon is in positioned opposite from the enter key
+- Apostrophe is strategically positioned next to the 't', 'e', 'y' and 'i' to make contractions easy to type
+- += and ): are easy to type
+
