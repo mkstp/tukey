@@ -68,5 +68,7 @@ Numbers, navigation keys, modifiers and shortcuts have been collapsed into this 
 
 - The '.' and ',' keys have been transferred to this layer as well. This makes it easier to type floats like 1.0, or lists like 1, 2, 3, 4, 5
 - The '-' key appaers here as well, this is for negative numbers
-- 
+- The right hand is for navigation, there's no logical order for the down, left, right, up arrow keys other than by convention (I'm used to CTL+N for down, and CTL+P for up on QWERTY)
+- The left hand is for selection and editing. CTL allows you to move the cursor by word instead of by letter, shift allows you to highlight things as you move the cursor.
+- And finally the ~ key which got bumped to the third layer because didn't fit on the symbols layer 
 
