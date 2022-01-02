@@ -31,7 +31,7 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 
 ### Unconventional Ergonomics
 
-For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. Slightly more challenging are words like 'member', 'question' and 'bring' which require you to layer your fingers while turning your wrists inward. And the nearly impossible to avoid SFB's are in words like 'answer', 'yield' or 'phalanx'. 
+For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. More challenging are words like 'member', 'question' and 'bring' which might require you to layer your fingers while turning your wrists inward. And the impossible to avoid SFB's are in words like 'answer', 'yield' or 'phalanx'. 
 
 ### Inward Finger Rolls
 
@@ -41,9 +41,9 @@ Inward rolls were an additional design priority for this layout. When rolling yo
 
 ### Tradeoffs
 
-With a smaller number of physical keys, more complex layering schemas are necessary to achieve the full breadth of key inputs needed for typing. Admittedly, the Tukey layout does not align with the modern trend in custom keyboard design to reduce the number of keys on the keyboard as much as possible (I think the record is 34 keys as of late 2020). In my opinion, the pursuit of the smallest keyboard produces more complex layouts, and there's a subjective point for any user where its complexity makes the keyboard too difficult to use. For me, I believe in a more balanced approach which accepts some complexity in layering while trying to preserve a maximum finger travel distance of 1U away from the home position. But it stops at 40% of a normal keyboard. Beyond that point my main design principle of not typing two keys with the same finger becomes difficult to manage. 
+There are no punctuation keys in the base layer. Sometimes, punctuation '.', ',', '-' and ''' are used more frequently in english than letters 'v' and 'k'. And so in order to address SFB's, I've sacrificed easy access to those keys. I tried to address this by placing those keys in more accessible places on the symbols layer, but that will never be as fast compared to the single keypress required on most other keyboard layout designs. The only other solution I can think of is to add more physical keys to the keyboard in 2U positions away from the home row, which increases finger travel distance for those keys but removes the layering complexity. 
 
-Another problem with this layout is labels for keys. In the economics of keyboard manufacturing, there is no keyset which includes duplicate letters like 'O', 'L', and 'R'. Extra keys need to be purchased separately which is impractical. And so, any keyboard which implements a Tukey layout might not have labels which accurately reflect their assigned key. This is a problem for learning this layout, which is already dramatically different from QWERTY. However, once this layout is memorized, I would argue there's no more need for labels since you're not supposed to be looking at your fingers when you type anyway. 
+A problem with this layout is labels for keys. In the economics of keyboard manufacturing, there is no keycap set which includes duplicate letters like 'O', 'L', and 'R'. Extra keys need to be purchased separately which is impractical. And so, any keyboard which implements a Tukey layout might not have labels which accurately reflect their assigned key. This is a problem for learning this layout, which is already dramatically different from QWERTY. However, once this layout is memorized, I would argue there's no more need for labels since you're not supposed to be looking at your fingers when you type anyway. 
 
 With this layout, there are now multiple ways to type the same thing. That's both a blessing and a curse. In a word like 'follow' for example, you might choose to type the first 'o' with your right hand, and the other 'o' with your left hand. Whatever you decide, Tukey requires that you make the extra effort to train your muscle memory word by word which is mentally exhausting while starting out. And so the learning curve for Tukey is very steep. But the reward, even at speeds of 40wpm, is arguably one of the smoothest typing experiences out there.
 
@@ -57,7 +57,16 @@ SFB's are not as much of a problem with sequentially typed symbols compared to l
 - No keys in this layer require the shift key
 - Inward roles that facilitate nested brackets 
 - Bracket section is in proximity to the repeat key so things like ))))) can be typed very quickly
-- Semi-colon is in positioned opposite from the enter key
 - Apostrophe is strategically positioned next to the 't', 'e', 'y' and 'i' to make contractions easy to type
 - += and ): are easy to type
+
+## The Tukey Keyboard Layout - NUMBERS LAYER
+
+![image](numbers_layout.png)
+
+Numbers, navigation keys, modifiers and shortcuts have been collapsed into this third layer. A few things to note:
+
+- The '.' and ',' keys have been transferred to this layer as well. This makes it easier to type floats like 1.0, or lists like 1, 2, 3, 4, 5
+- The '-' key appaers here as well, this is for negative numbers
+- 
 
