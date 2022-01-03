@@ -1,6 +1,6 @@
 ## The Tukey Keyboard Layer 1 - LETTERS
 
-Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a 40%, multi-layered, QMK compatible ortholinear keyboard like the [Planck](https://olkb.com/collections/planck).
+Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a 40%, multi-layered, QMK compatible ortholinear keyboard like the [Horizon](https://github.com/skarrmann/horizon/).
 
 ![image](letters_layout.png)
 
