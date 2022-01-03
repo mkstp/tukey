@@ -30,6 +30,10 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 - 'T' helps with 'PT' when typing words like 'accept', 'option', and 'captain'
 - 'S' helps with 'SW' when typing words like 'answer', 'swim', and 'news'
 
+### ._ ,_ and ?_
+
+These three keys are macros that I call the dot space, comma space, and question space keys. When typing english, you will almost always type a space after any of those characters, and so the macros do that for you. That way, instead of pressing space, you can press any of these keys instead. For the dot space and question space keys, they will also capitalize the next keypress automatically. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
+
 ### Unconventional Ergonomics
 
 For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. More challenging are words like 'member', 'question' and 'bring' which might require you to layer your fingers while turning your wrists inward. And the impossible to avoid SFB's are in words like 'answer', 'yield' or 'phalanx'. 
