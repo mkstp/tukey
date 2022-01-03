@@ -36,7 +36,7 @@ These three keys are macros that I call the dot space, comma space, and question
 
 ### Unconventional Ergonomics
 
-For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. More challenging are words like 'member', 'question' and 'bring' which might require you to layer your fingers while turning your wrists inward. And the impossible to avoid SFB's are in words like 'answer', 'yield' or 'phalanx'. 
+For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. More challenging are words like 'member', 'question' and 'bring' which might require you to layer your fingers while turning your wrists inward. And the impossible to avoid SFB's are in words like 'yield' or 'phalanx'. 
 
 ### Inward Finger Rolls
 
@@ -45,8 +45,6 @@ Inward rolls were an additional design priority for this layout. When rolling yo
 "The old friends from France held hands"
 
 ### Tradeoffs
-
-There are no punctuation keys in the base layer. Sometimes, punctuation '.', ',', '-' and ''' are used more frequently in english than letters 'v' and 'k'. And so in order to address SFB's, I've sacrificed easy access to those keys. I tried to address this by placing those keys in more accessible places on the symbols layer, but that will never be as fast compared to the single keypress required on most other keyboard layout designs. The only other solution I can think of is to add more physical keys to the keyboard in 2U positions away from the home row, which increases finger travel distance for those keys but removes the layering complexity. 
 
 A problem with this layout is labels for keys. In the economics of keyboard manufacturing, there is no keycap set which includes duplicate letters like 'O', 'L', and 'R'. Extra keys need to be purchased separately which is impractical. And so, any keyboard which implements a Tukey layout might not have labels which accurately reflect their assigned key. This is a problem for learning this layout, which is already dramatically different from QWERTY. However, once this layout is memorized, I would argue there's no more need for labels since you're not supposed to be looking at your fingers when you type anyway. 
 
@@ -61,9 +59,7 @@ SFB's are not as much of a problem with sequentially typed symbols compared to l
 - Most common punctuation keys in the home row
 - No keys in this layer require the shift key
 - Inward roles that facilitate nested brackets 
-- Bracket section is in proximity to the repeat key so things like ))))) can be typed very quickly
 - Apostrophe is strategically positioned next to the 't', 'e', 'y' and 'i' to make contractions easy to type
-- += and ): are easy to type
 
 ## The Tukey Keyboard Layer 3 - NUMBERS
 
@@ -72,7 +68,7 @@ SFB's are not as much of a problem with sequentially typed symbols compared to l
 Numbers, navigation keys, modifiers and shortcuts have been collapsed into this third layer. A few things to note:
 
 - The '.' and ',' keys have been transferred to this layer as well. This makes it easier to type floats like 1.0, or lists like 1, 2, 3, 4, 5
-- The '-' key appears here too, this is for negative numbers
+- The '-' key appears here for negative numbers, and '/' for fractions. 
 - The right hand is for navigation, there's no logical order for the down, left, right, up arrow keys other than by convention (I'm used to CTL+N for down, and CTL+P for up on QWERTY)
 - The left hand is for selection and editing. CTL allows you to move the cursor by word instead of by letter, shift allows you to highlight things as you move the cursor.
 - And finally the ~ key which got bumped to the third layer because didn't fit on the symbols layer 
