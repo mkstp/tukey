@@ -1,10 +1,10 @@
-## The Tukey Keyboard Layout - BASE LAYER
+## The Tukey Keyboard Layer 1 - LETTERS
 
-Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a minimum 42 key, multi-layered, QMK compatible ortholinear keyboard like the [Planck](https://olkb.com/collections/planck).
+Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a 40%, multi-layered, QMK compatible ortholinear keyboard like the [Planck](https://olkb.com/collections/planck).
 
 ![image](letters_layout.png)
 
-The Tukey layout does away with the assumption that each letter/symbol should occupy only one position on the keyboard. For example, the letters 'O', 'L', 'R', and 'T' appear twice in the image. There is also the addition of a dedicated 'REPEAT' key in the top left corner of the keyboard. 
+The Tukey layout does away with the assumption that each letter/symbol should occupy only one position on the keyboard. For example, the letters 'O', 'L', 'R', 'T' and 'S' appear twice in the image. There is also the addition of a dedicated 'REPEAT' key in the top left corner of the keyboard. 
 
 This duplication of select letters, the repeat key, and the data driven principles that support their design, is what inspired the name 'Tukey'.
 
@@ -20,7 +20,7 @@ The chief justification for duplicating keys at different positions on the keybo
 
 The repeat key decouples same finger bigrams from all double letter bigrams with the exception of 'AA' and 'QQ' which require extra left pinky finger motion. This key will repeat any previous action inputted to the keyboard, which means it also works for macros like copy/paste and other shortcuts. With it, you will find that your fingers glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands. The QMK implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
 
-### O L R and T
+### O L R T and S
 
 So if the repeat key exists to type DLB's, then why are there other duplicate keys still scattered over the keyboard? That's because the position of select duplicate letters helps to further reduce SFB's to near zero for a seamless typing experience. For each duplicate key: 
 
@@ -28,6 +28,7 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 - 'L' helps with 'LE' and 'LN' when typing words like 'only', 'learn', and 'leave'
 - 'R' helps with 'RI' and 'RS' when typing words like 'right', 'describe', and 'person' 
 - 'T' helps with 'PT' when typing words like 'accept', 'option', and 'captain'
+- 'S' helps with 'SW' when typing words like 'answer', 'swim', and 'news'
 
 ### Unconventional Ergonomics
 
@@ -47,7 +48,7 @@ A problem with this layout is labels for keys. In the economics of keyboard manu
 
 With this layout, there are now multiple ways to type the same thing. That's both a blessing and a curse. In a word like 'follow' for example, you might choose to type the first 'o' with your right hand, and the other 'o' with your left hand. Whatever you decide, Tukey requires that you make the extra effort to train your muscle memory word by word which is mentally exhausting while starting out. And so the learning curve for Tukey is very steep. But the reward, even at speeds of 40wpm, is arguably one of the smoothest typing experiences out there.
 
-## The Tukey Keyboard Layout - SYMBOLS LAYER
+## The Tukey Keyboard Layer 2 - SYMBOLS
 
 ![image](symbols_layout.png)
 
@@ -60,7 +61,7 @@ SFB's are not as much of a problem with sequentially typed symbols compared to l
 - Apostrophe is strategically positioned next to the 't', 'e', 'y' and 'i' to make contractions easy to type
 - += and ): are easy to type
 
-## The Tukey Keyboard Layout - NUMBERS LAYER
+## The Tukey Keyboard Layer 3 - NUMBERS
 
 ![image](numbers_layout.png)
 
@@ -71,4 +72,3 @@ Numbers, navigation keys, modifiers and shortcuts have been collapsed into this 
 - The right hand is for navigation, there's no logical order for the down, left, right, up arrow keys other than by convention (I'm used to CTL+N for down, and CTL+P for up on QWERTY)
 - The left hand is for selection and editing. CTL allows you to move the cursor by word instead of by letter, shift allows you to highlight things as you move the cursor.
 - And finally the ~ key which got bumped to the third layer because didn't fit on the symbols layer 
-
