@@ -4,7 +4,7 @@ Named after the famous statistician John Tukey (pronounced too-key). This layout
 
 ![image](letters_layout.png)
 
-The Tukey layout does away with the assumption that each letter/symbol should occupy only one position on the keyboard. For example, the letters 'O', 'L', 'R', 'T' and 'S' appear twice in the image. There is also the addition of a dedicated 'REPEAT' key in the top left corner of the keyboard. 
+The Tukey layout does away with the assumption that each letter/symbol should occupy only one position on the keyboard. For example, the letters 'O', 'L', 'R', and 'T' appear twice in the image. There is also the addition of a dedicated 'REPEAT' key in the top left corner of the keyboard. 
 
 This duplication of select letters, the repeat key, and the data driven principles that support their design, is what inspired the name 'Tukey'.
 
@@ -20,7 +20,7 @@ The chief justification for duplicating keys at different positions on the keybo
 
 The repeat key decouples same finger bigrams from all double letter bigrams with the exception of 'AA' and 'QQ' which require extra left pinky finger motion. This key will repeat any previous action inputted to the keyboard, which means it also works for macros like copy/paste and other shortcuts. With it, you will find that your fingers glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands. The QMK implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
 
-### O L R T and S
+### O L R and T
 
 So if the repeat key exists to type DLB's, then why are there other duplicate keys still scattered over the keyboard? That's because the position of select duplicate letters helps to further reduce SFB's to near zero for a seamless typing experience. For each duplicate key: 
 
@@ -28,15 +28,14 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 - 'L' helps with 'LE' and 'LN' when typing words like 'only', 'learn', and 'leave'
 - 'R' helps with 'RI' and 'RS' when typing words like 'right', 'describe', and 'person' 
 - 'T' helps with 'PT' when typing words like 'accept', 'option', and 'captain'
-- 'S' helps with 'SW' when typing words like 'answer', 'swim', and 'news'
 
-### ._ ,_ and ?_
+### ._ ,_ !_ and ?_
 
-These three keys are macros that I call the dot space, comma space, and question space keys. When typing english, you will almost always type a space after any of those characters, and so the macros do that for you. That way, instead of pressing space, you can press any of these keys instead. For the dot space and question space keys, they will also capitalize the next keypress automatically. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
+These four keys are macros that I call the dot space, comma space, exclamation space, and question space keys. When typing english, you will almost always type a space after any of those characters, and so the macros do that for you. That way, instead of pressing space, you can press any of these keys instead. Except for the comma space key, the rest will also capitalize the next keypress automatically. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
 
 ### Unconventional Ergonomics
 
-For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. More challenging are words like 'member', 'question' and 'bring' which might require you to layer your fingers while turning your wrists inward. And the impossible to avoid SFB's are in words like 'yield' or 'phalanx'. 
+For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. More challenging are words like 'member', 'question' and 'bring' which might require you to layer your fingers while turning your wrists inward. And the impossible to avoid SFB's are in words like 'answer', 'yield' or 'phalanx'. 
 
 ### Inward Finger Rolls
 
@@ -71,4 +70,5 @@ Numbers, navigation keys, modifiers and shortcuts have been collapsed into this 
 - The '-' key appears here for negative numbers, and '/' for fractions. 
 - The right hand is for navigation, there's no logical order for the down, left, right, up arrow keys other than by convention (I'm used to CTL+N for down, and CTL+P for up on QWERTY)
 - The left hand is for selection and editing. CTL allows you to move the cursor by word instead of by letter, shift allows you to highlight things as you move the cursor.
-- And finally the ~ key which got bumped to the third layer because didn't fit on the symbols layer 
+- The undo, cut, copy, paste command strip is preserved from qwerty. They are also now in macro form so you don't have to hold control to type them. 
+- And finally the grave and tilde keys which got bumped to the third layer because they didn't fit on the symbols layer 
