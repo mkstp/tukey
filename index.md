@@ -10,11 +10,11 @@ This duplication of select letters, the repeat key, and the data driven principl
 
 ### Why Duplicate Keys?
 
-Layouts like Colemak are designed to minimize same finger bigrams (SFB's). That is, keys typed sequentially using the same finger. On a QWERTY keyboard for example, 'CE' is a SFB, so is 'DE' and 'RT'. When typing, a SFB takes longer to execute than keys typed sequentially using two different fingers. A SFB requires you to press the first key, then raise your finger before moving to and pressing the next key. With two different fingers, pressing a key and positioning your other finger to press the next key can happen at the same time, which results in faster, smoother, and more accurate typing. 
+Many keyboard layouts are designed to minimize same finger bigrams (SFB's). That is, keys typed sequentially using the same finger. On a QWERTY keyboard for example, 'CE' is a SFB, so is 'DE' and 'RT'. When typing, a SFB takes longer to execute than keys typed sequentially using two different fingers. A SFB requires you to press the first key, then raise your finger before moving to and pressing the next key. With two different fingers, pressing a key and positioning your other finger to press the next key can happen at the same time, which results in faster, smoother, and more accurate typing. 
 
-No perfect layout exists which completely eliminates SFB's, and so designers try to position letters in a way that matches the least common bigrams to SFB positions on a keyboard. This is why 'F' and 'H' are positioned where they are on this layout, since they almost never appear right next to each other it is therefore safer to place them within the same finger range on the board. It's a better design choice than 'DE' on a QWERTY keyboard for example, which is an extremely common bigram that unfortunately must be typed with the same finger. 
+No perfect layout exists which completely eliminates SFB's, and so designers try to position letters in a way that matches the least common bigrams to SFB positions on a keyboard. This is why 'F' and 'H' are positioned for the right ring finger on this layout, since 'fh' or 'hf' is a very uncommon english bigram, it's safer to place them within the same finger range on the board. It's a better design choice than 'LO' at the same position on a QWERTY keyboard for example, which is an extremely common bigram that unfortunately must be typed with the same finger. 
 
-The chief justification for duplicating keys at different positions on the keyboard is that double letter bigrams (DLB's) like 'OO' and 'LL' are also, by convention, same finger bigrams. And as a result of this convention they are inefficient to type. They are also extremely common. In fact, in the aggregate, DLB's account for over 2.5% of all bigrams typed in the english language. That makes them the third most common bigram after 'TH' (3.5%) and 'HE' (3.1%). Data for this is available in this repo. 
+The chief justification for duplicating keys at different positions on the keyboard is that double letter bigrams (DLB's) like 'OO' and 'LL' are also, by convention, same finger bigrams. And as a result of this convention they are less efficient to type. They are also extremely common. In fact, in the aggregate, DLB's account for over 2.5% of all bigrams typed in the english language. That makes them the third most common bigram after 'TH' (3.5%) and 'HE' (3.1%). Data for this is available in the main branch of this repo. 
 
 ### The Repeat Key
 
@@ -29,10 +29,6 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 - 'R' helps with 'RI' and 'RS' when typing words like 'right', 'describe', and 'person' 
 - 'T' helps with 'PT' when typing words like 'accept', 'option', and 'captain'
 
-### ._ ,_ !_ and ?_
-
-These four keys are macros that I call the dot space, comma space, exclamation space, and question space keys. When typing english, you will almost always type a space after any of those characters, and so the macros do that for you. That way, instead of pressing space, you can press any of these keys instead. Except for the comma space key, the rest will also capitalize the next keypress automatically. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
-
 ### Unconventional Ergonomics
 
 For other potential conflicts, there is usually an easy way to reposition your fingers to avoid a SFB. For example, the words 'small' or 'kept' require slight inward lateral shifts from the traditional home row finger positions. The words 'first' and 'write' as well. More challenging are words like 'member', 'question' and 'bring' which might require you to layer your fingers while turning your wrists inward. And the impossible to avoid SFB's are in words like 'answer', 'yield' or 'phalanx'. 
@@ -43,11 +39,9 @@ Inward rolls were an additional design priority for this layout. When rolling yo
 
 "The old friends from France held hands"
 
-### Tradeoffs
+### Punctuation
 
-A problem with this layout is labels for keys. In the economics of keyboard manufacturing, there is no keycap set which includes duplicate letters like 'O', 'L', and 'R'. Extra keys need to be purchased separately which is impractical. And so, any keyboard which implements a Tukey layout might not have labels which accurately reflect their assigned key. This is a problem for learning this layout, which is already dramatically different from QWERTY. However, once this layout is memorized, I would argue there's no more need for labels since you're not supposed to be looking at your fingers when you type anyway. 
-
-With this layout, there are now multiple ways to type the same thing. That's both a blessing and a curse. In a word like 'follow' for example, you might choose to type the first 'o' with your right hand, and the other 'o' with your left hand. To type the word 'surprise' you could also use both 'r's. Whatever you decide, Tukey requires that you make the extra effort to train your muscle memory word by word which is mentally exhausting while starting out. And so the learning curve for Tukey is very steep. But the reward, even at speeds of 40wpm, is arguably one of the smoothest typing experiences out there.
+These four keys are macros that I call the dot space, comma space, exclamation space, and question space keys. When typing english, you will almost always type a space after any of those characters, and so the macros do that for you. That way, instead of pressing space, you can press any of these keys instead. With the exception of comma space, the rest will also capitalize the next keypress automatically. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
 
 ## The Tukey Keyboard Layer 2 - SYMBOLS
 
@@ -72,3 +66,9 @@ Numbers, navigation keys, modifiers and shortcuts have been collapsed into this 
 - The left hand is for selection and editing. CTL allows you to move the cursor by word instead of by letter, shift allows you to highlight things as you move the cursor.
 - The undo, cut, copy, paste command strip is preserved from qwerty. They are also now in macro form so you don't have to hold control to type them. 
 - And finally the grave and tilde keys which got bumped to the third layer because they didn't fit on the symbols layer 
+
+### Tradeoffs
+
+A problem with this layout is labels for keys. In the economics of keyboard manufacturing, there is no keycap set which includes duplicate letters like 'O', 'L', and 'R'. Extra keys need to be purchased separately which is impractical. And so, any keyboard which implements a Tukey layout might not have labels which accurately reflect their assigned key. This is a problem for learning this layout, which is already dramatically different from QWERTY. However, once this layout is memorized, I would argue there's no more need for labels since you're not supposed to be looking at your fingers when you type anyway. 
+
+With this layout, there are now multiple ways to type the same thing. That's both a blessing and a curse. In a word like 'follow' for example, you might choose to type the first 'o' with your right hand, and the other 'o' with your left hand. To type the word 'surprise' you could also use both 'r's. Whatever you decide, Tukey requires that you make the extra effort to train your muscle memory word by word which is mentally exhausting while starting out. And so the learning curve for Tukey is very steep. But the reward, even at speeds of 40wpm, is arguably one of the smoothest typing experiences out there.
