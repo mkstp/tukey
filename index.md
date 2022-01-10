@@ -41,7 +41,7 @@ Inward rolls were an additional design priority for this layout. When rolling yo
 
 ### Punctuation
 
-These four keys are macros that I call the dot space, comma space, exclamation space, and question space keys. When typing english, you will almost always type a space after any of those characters, and so the macros do that for you. That way, instead of pressing space, you can press any of these keys instead. With the exception of comma space, the rest will also capitalize the next keypress automatically. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
+There are four punctuation key macros on the base layer of Tukey, I call these the dot space, comma space, exclamation space, and question space keys. When typing english, you will almost always type a space after any of those characters, and so the macros do that for you. With the exception of comma space, the rest will also capitalize the next keypress automatically. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
 
 ## The Tukey Keyboard Layer 2 - SYMBOLS
 
