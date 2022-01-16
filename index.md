@@ -97,6 +97,6 @@ There is an expressive quality that we ignore when we talk about the design of k
 
 That's why people have problems with QWERTY - because it impedes expressiveness, so people that exhibit virtuosity with it don't represent the peak of human potential. And I suspect that the 'repertoire' of what you can achieve with a QWERTY keyboard is limited. The future requires something better.
 
-I'm not sure how Tukey will impact the future of art and work. But I do argue that to be eligible to participate at the forefront of human expression and productivity, you should learn a new keyboard layout, and it might as well be mine. 
+I'm not sure how Tukey will impact the future of art and work. But I do argue that to be eligible to participate at the forefront of human expression and productivity, you should build yourself a mechanical keyboard and learn a new keyboard layout, and it might as well be mine. 
 
 
