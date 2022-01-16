@@ -83,7 +83,7 @@ So let's be real here. If you're looking to improve your typing speed and accura
 
 In the beginning when keyboards were first designed, they were actually based off pianos. The first patent for a QWERTY typerwriter (prequel to the keyboard) belongs to Christopher Latham Sholes and it looks like this:
 
-![image]()
+![image](sholes_keyboard_patent.jpg)
 
 That is to say, we often overlook the potential of new inventions for how they are related to their practical uses of the time. Before the typewriter and QWERTY, all you needed to communicate and express yourself was a pen and a piece of paper. There wasn't really a need at first for a mechanical typewriter because writing in a traditional sense was good enough for the times. The same way that a (now) conventional QWERTY keyboard on your laptop is good enough for these times. 
 
