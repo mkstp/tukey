@@ -2,7 +2,7 @@
 
 Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a 40%, multi-layered, QMK compatible ortholinear keyboard like the [Horizon](https://github.com/skarrmann/horizon/).
 
-![image](letters_layout.png)
+![image](letters.png)
 
 The Tukey layout does away with the assumption that each letter/symbol should occupy only one position on the keyboard. For example, the letters 'O', 'L', 'R', and 'T' appear twice. There is also the addition of a dedicated 'REPEAT' key on the left side of the keyboard. 
 
