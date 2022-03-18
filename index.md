@@ -1,6 +1,6 @@
 ## The Tukey Keyboard Layer 1 - LETTERS
 
-Named after the famous statistician John Tukey (pronounced too-key). This layout is designed for a 40%, multi-layered, QMK compatible ortholinear keyboard like the [Horizon](https://github.com/skarrmann/horizon/).
+Named after the famous statistician John Tukey (pronounced too-key). This layout can be implemented on any minimum 40% (42+keys), QMK compatible custom keyboard.
 
 ![image](letters.png)
 
@@ -40,7 +40,7 @@ Some might find this controversial, but for the remaining bigram conflicts, Tuke
 
 - Offset: Like I explained above, this happens when finger placement is shifted laterally, left or right.
 - Stack: Where two different fingers are placed along the same vertical column. On QWERTY, examples can include 'CE', 'UN', 'RF'.
-- Pinch: Where your thumb is brought upward in order to type letters on the row above it (this one is really uncommon). QWERTY ex: 'community', 'anybody', 'ruby', 'vinyl', '1.0, 2.0, 3.0'
+- Pinch: Where your thumb is brought upward in order to type letters on the row above it (this one is really uncommon). QWERTY ex: 'minimum', 'anybody', 'ruby', 'vinyl', '1.0, 2.0, 3.0'
 
 Tukey's approach to horizontal staggering lowers the effort required for any offsets, stacks, or pinches in order to address any remaining SFB's and even trigam conflicts like 'BRI' and 'GRY'.
 
