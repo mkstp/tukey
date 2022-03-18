@@ -4,7 +4,7 @@ Named after the famous statistician John Tukey (pronounced too-key). This layout
 
 ![image](letters_layout.png)
 
-The Tukey layout does away with the assumption that each letter/symbol should occupy only one position on the keyboard. For example, the letters 'O', 'L', 'R', and 'T' appear twice in the image. There is also the addition of a dedicated 'REPEAT' key in the top left corner of the keyboard. 
+The Tukey layout does away with the assumption that each letter/symbol should occupy only one position on the keyboard. For example, the letters 'O', 'L', 'R', and 'T' appear twice. There is also the addition of a dedicated 'REPEAT' key on the left side of the keyboard. 
 
 This duplication of select letters, the repeat key, and the data driven principles that support their design, is what inspired the name 'Tukey'.
 
@@ -12,28 +12,48 @@ This duplication of select letters, the repeat key, and the data driven principl
 
 Many keyboard layouts are designed to minimize same finger bigrams (SFB's). That is, keys typed sequentially using the same finger. On a QWERTY keyboard for example, 'CE' is a SFB, so is 'DE' and 'RT'. When typing, a SFB takes longer to type than keys typed using two different fingers. A SFB requires you to press the first key, then raise your finger before moving to and pressing the next key. With two different fingers, pressing a key and positioning your other finger to press the next key can happen at the same time, which results in faster, smoother, and more accurate typing. 
 
-No perfect layout exists which completely eliminates SFB's, and so designers try to position letters in a way that matches the least common bigrams to unavoidable SFB positions on a keyboard. This is why 'F' and 'H' are positioned for the right ring finger on this layout, since 'FH' or 'HF' are very uncommon english bigrams, it's safer to place them within the same finger range on the board. It's a better design choice than 'OL' or 'LO' at the same position on a QWERTY keyboard, which are very common bigrams that unfortunately must be typed with the same finger. 
+No perfect layout exists which completely eliminates SFB's, and so designers try to position letters to match the least common bigrams to unavoidable SFB positions on a keyboard. This is why 'F' and 'H' are positioned for the right ring finger on this layout, since 'FH' or 'HF' are very uncommon english bigrams, it's safer to place them within the same finger range on the board. It's a better design choice than 'OL' or 'LO' at the same position on a QWERTY keyboard, which are very common bigrams that unfortunately must be typed with the same finger. 
 
-The chief justification for duplicating keys at different positions on the keyboard is that double letter bigrams (DLB's) like 'OO' and 'LL' are also, by definition, same finger bigrams. And as a result they are less efficient to type. They are also extremely common. In fact all together, the 26 DLB's account for over 2.5% of all bigrams typed in the english language. That makes them the third most common bigram after 'TH' (3.5%) and 'HE' (3.1%). Data for this is available in the main branch of this repo. 
+The chief justification for duplicating keys at different positions on the keyboard is that double letter bigrams (DLB's) like 'OO' and 'LL' are also same finger bigrams. And as a result they are less efficient to type. They are also extremely common. In fact all together, the 26 DLB's account for over 2.5% of all bigrams typed in the english language. That makes them the third most common bigram after 'TH' (3.5%) and 'HE' (3.1%). Data for this is available in the main branch of this repo. 
 
 ### The Repeat Key
 
-The repeat key decouples same finger bigrams from all double letter bigrams with the exception of 'AA' and 'QQ'. This key will repeat any previous action inputted to the keyboard, which means it also works for symbols, numbers, backspace and macros like copy/paste. With it, you will find that your fingers glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands. The QMK implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
+The repeat key decouples same finger bigrams from double letter bigrams with the exception of 'AA' and 'QQ'. This key will repeat any previous action inputted to the keyboard, which means it also works for symbols, numbers, backspace and macros like copy/paste. With it, you will find that your fingers glide over the keyboard when typing words like 'difficult' or 'successful' instead of what would normally feel like a game of hop scotch with your hands. The QMK implementation for the key can be found [here](https://gist.github.com/NotGate/3e3d8ab81300a86522b2c2549f99b131)
 
-### O L R and T
+### O L R S and T
 
-So if the repeat key exists to type DLB's, then why are there other duplicate keys still scattered over the keyboard? That's because the position of duplicate letters further reduces SFBs to near zero for a fluid typing experience. For each duplicate key: 
+So if the repeat key exists to type DLB's, then why are there other duplicate keys still scattered over the keyboard? That's because the position of duplicate letters in strategic locations further reduces SFBs to near zero for a fluid typing experience. For each duplicate key: 
 
 - 'O' addresses the 'EO' and 'OA' bigram conflicts, which helps with words like 'people', 'does', and 'board'. 
 - 'L' helps with 'LE' and 'LN' when typing words like 'only', 'learn', and 'leave'
 - 'R' helps with 'RI' and 'RS' when typing words like 'right', 'describe', and 'person' 
+- 'S' helps with 'SW' and 'WS' when typing words like 'answer', 'crews', 'switch'
 - 'T' helps with 'PT' when typing words like 'accept', 'option', and 'captain'
 
-### Unconventional Ergonomics
+### Column Extensions
 
-Some home row purists might find this controversial, but for other potential conflicts Tukey offers an ergonomic way to reposition your fingers to avoid a SFB. For example, the words 'small', 'kept', 'first, or 'write' require 1U (one conventional keycap size) inward lateral shifts from the traditional home row finger positions. Words like 'member', 'question', 'bring' or 'yield' can be typed with your thumbs raised 1U or by layering your middle and index fingers over the same key column. Pressing 'a' after using the repeat key can be done with your ring finger for words like 'addage', or 'annagram'. Many typists naturally end up typing this way [without sticking to formal home row positions](https://userinterfaces.aalto.fi/how-we-type/), and so Tukey affords that natural tendency through its design. 
+From a 40% ortholinear keyboard with 48 keys, take the 3 bottom keys from the left and right side of the board and move them to the top of the board where they are more easily accessed by your extended index, middle, and ring fingers. This upward column extension mimics a columnar stagger model for keyplacement but preserves the same number of keys. But unlike the straight 40%, this new top row of keys affords a more natural range of motion using your longest/strongest fingers without needing to translate or rotate your wrist outward.
 
-Regrettably, I couldn't address the 'SW', and 'WS" bigrams with strategic key placement or unconventional ergonomics. And so words like 'answer' and 'swim' are still difficult like they are in QWERTY. Other less common bigram conflicts include 'DC', 'CD', and 'NX'.
+### Unconventional Ergonomics and Horizontal Stagger
+
+Some might find this controversial, but for the remaining bigram conflicts, Tukey's letter placement combined with an unconventional approach to horizontal staggering offers an ergonomic way to reposition your fingers to avoid SFB's. [Most typists are not touch type purists](https://userinterfaces.aalto.fi/how-we-type/), which means that they don't always stick to formal finger-letter placement conventions for each word they type. Take the word 'hurt' for example. On QWERTY, 'hurt' can be typed according to formalised rules, which means you use your right index finger to type 'hu', then your left index finger to type 'rt'. But wouldn't it be way easier and faster if you used your right index finger AND middle finger to type 'h' then 'u', then your left middle finger AND index finger to type 'r' then 't'? Over time, many people evolve unconventional methods like this to type certain words. I've classified these into three main subcategories:
+
+- Translation: Like I explained above, this happens when finger placement is shifted laterally, either inward or outward
+- Rotation: Where two different fingers are placed along the same vertical column. On QWERTY, examples can include 'CE', 'UN', 'RF'. This can also be inward or outward
+- Pinch: Where your thumb is brought upward in order to type letters on the row above it. QWERTY ex: 'community', 'anybody', 'ruby', 'vinyl', '1.0, 2.0, 3.0'
+
+Tukey's approach to horizontal staggering lowers the effort required for any translations, rotations, or pinches in order to address any remaining SFB's and even trigam conflicts like 'BRI' and 'GRY'.
+
+| Word | Typing Strategy |
+| ---- | --------------- |
+| 'amaze' | right hand inward translation |
+| 'guest' | right hand inward rotation |
+| 'anxious' | left hand inward rotation |
+| 'yield' | right hand pinch |
+| 'write' | left hand inward rotation + translation |
+| 'write' alt* | right hand inward rotation |
+
+These kind of moves are more difficult on an ortholinear layout, and are only haphhazardly useful using conventional assymetric staggering. 
 
 ### Inward Finger Rolls
 
@@ -43,7 +63,7 @@ Inward rolls were an additional design priority for this layout. When rolling yo
 
 ### Punctuation
 
-There are four punctuation key macros on the base layer of Tukey, I call these the dot space, comma space, exclamation space, and question space keys. When typing english, you will almost always type a space after any of those characters, and so the macros do that for you. With the exception of comma space, the macros will also capitalize the next keypress. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
+There are two punctuation key macros on the base layer of Tukey, I call these the dot space and comma space space keys. When typing english, you will almost always type a space after either of those characters, and so the macros do that for you. Dot space will also capitalize the next keypress for you. These keys appear normally in the symbols layer for other conditions (like in programming), where you don't want to type a space after them. 
 
 ## The Tukey Keyboard Layer 2 - SYMBOLS
 
@@ -54,7 +74,6 @@ SFB's are not as much of a problem with sequentially typed symbols compared to l
 - Most common punctuation keys in the home row
 - No keys in this layer require the shift key
 - Inward roles that facilitate nested brackets 
-- Apostrophe is strategically positioned next to the 't', 'e', 'y' and 'i' to make contractions easy to type
 
 ## The Tukey Keyboard Layer 3 - NUMBERS
 
@@ -63,11 +82,11 @@ SFB's are not as much of a problem with sequentially typed symbols compared to l
 Numbers, navigation keys, modifiers and shortcuts have been collapsed into this third layer. A few things to note:
 
 - The '.' and ',' keys have been duplicated to this layer as well. This makes it easier to type floats like 1.0, or lists like 1, 2, 3, 4, 5
-- The '-' key appears here for negative numbers, and '/' for fractions. 
+- The '-' key appears here for negative numbers, and '/' for fractions.
+- Although these are technically symbols, the '%' and '$' keys almost always appear alongside numbers, so they've been moved to this layer.  
 - The right hand is for navigation; there's no logical order for the down, left, right, up arrow keys other than by convention (I'm used to CTL+N for down, and CTL+P for up on QWERTY)
 - The left hand is for selection and editing. CTL allows you to move the cursor by word instead of by letter, shift allows you to highlight things as you move the cursor.
 - The undo, cut, copy, paste command strip is preserved from QWERTY. They are also now in macro form so you don't have to hold control to type them. 
-- And finally the less common backtick and tilde keys got banished to this layer because they didn't fit on the symbols layer :(
 
 ### Tradeoffs
 
