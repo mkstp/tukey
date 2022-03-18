@@ -47,13 +47,16 @@ Tukey's approach to horizontal staggering lowers the effort required for any tra
 | Word | Typing Strategy |
 | ---- | --------------- |
 | 'amaze' | right hand inward translation |
+| 'annagram' | left hand outward translation |
 | 'guest' | right hand inward rotation |
 | 'anxious' | left hand inward rotation |
 | 'yield' | right hand pinch |
+| 'jacuzzi'| right hand outward rotation + translation |
+| 'jacuzzi' alt* | right hand pinch |
 | 'write' | left hand inward rotation + translation |
 | 'write' alt* | right hand inward rotation |
 
-These kind of moves are more difficult on an ortholinear layout, and are only haphhazardly useful using conventional assymetric staggering. 
+These kind of moves are more difficult on an ortholinear layout, and are inconsistently accessible using conventional assymetric staggering. 
 
 ### Inward Finger Rolls
 
