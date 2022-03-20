@@ -34,15 +34,15 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 
 From a 40% ortholinear keyboard with 48 keys, take the 3 bottom keys from the left and right side of the board and move them to the top of the board where they are more easily accessed by your extended index, middle, and ring fingers. This upward column extension mimics a columnar stagger model for keyplacement but preserves the same number of keys. But unlike the straight 40%, this new top row of keys affords a more natural range of motion using your longest/strongest fingers without needing to translate or rotate your wrist outward.
 
-### Unconventional Ergonomics and Horizontal Stagger
+### Unconventional Ergonomics and 'V' Stagger
 
-Some might find this controversial, but for the remaining bigram conflicts, Tukey's letter placement combined with an unconventional approach to horizontal staggering offers an ergonomic way to reposition your fingers to avoid SFB's. [Most typists are not touch type purists](https://userinterfaces.aalto.fi/how-we-type/), which means that they don't always stick to formal finger-letter placement conventions for each word they type. Take the word 'hurt' for example. On QWERTY, 'hurt' can be typed according to formalised rules, which means you use your right index finger to type 'hu', then your left index finger to type 'rt'. But wouldn't it be way easier and faster if you used your right index finger AND middle finger to type 'h' then 'u', then your left middle finger AND index finger to type 'r' then 't'? Over time, many people evolve unconventional methods like this to type certain words. I've classified these into three main subcategories described by how they deviate from the conventional touch type mappings:
+Some might find this controversial, but for the remaining bigram conflicts, Tukey's letter placement combined with its v-shaped approach to horizontal staggering offers an ergonomic way to reposition your fingers to avoid SFB's. [Most typists are not touch type purists](https://userinterfaces.aalto.fi/how-we-type/), which means that they don't always stick to formal finger-letter placement conventions for each word they type. Take the word 'hurt' for example. On QWERTY, 'hurt' can be typed according to formalised rules, which means you use your right index finger to type 'hu', then your left index finger to type 'rt'. But wouldn't it be way easier and faster if you used your right index finger AND middle finger to type 'h' then 'u', then your left middle finger AND index finger to type 'r' then 't'? Over time, many people evolve unconventional methods like this to type certain words. I've classified these into three main subcategories described by how they deviate from the conventional touch type mappings:
 
 - Offset: Like I explained above, this happens when finger placement is shifted laterally, left or right.
 - Stack: Where two different fingers are placed along the same vertical column. On QWERTY, examples can include 'CE', 'UN', 'RF'.
 - Pinch: Where your thumb is brought upward in order to type letters on the row above it (this one is really uncommon). QWERTY ex: 'minimum', 'anybody', 'ruby', 'vinyl', '1.0, 2.0, 3.0'
 
-Tukey's approach to horizontal staggering lowers the effort required for any offsets, stacks, or pinches in order to address any remaining SFB's and even trigam conflicts like 'BRI' and 'GRY'.
+Tukey's approach to horizontal staggering encourages the natural angle of your hands/wrists to be somewhat perpendicular to the direction of its 'V'. This lowers the effort required for any offsets, stacks, or pinches in order to address any remaining SFB's. A few examples are given below:
 
 | Word | Typing Strategy |
 | ---- | --------------- |
@@ -56,7 +56,7 @@ Tukey's approach to horizontal staggering lowers the effort required for any off
 | 'write' | left hand stack + offset on 'wr' using the left r |
 | 'write' alt* | right hand stack  on 'ri' (harder)|
 
-These kind of moves are more difficult on an ortholinear layout, and are inconsistently accessible using conventional assymetric staggering. I argue that through strategic letter placement and stagger, Tukey affords a range of touch type deviations that keep your wrists at a confortable angle and not bent inwards. Using this layout, there are no bigrams that appear with any frequency in modern english which necessitate same finger up/down motion which would bend your wrists in the wrong direction. All other bigrams and most common trigrams are typed using alternating fingers or same hand rolls, which are easy to execute in any stagger arrangement. 
+These kind of moves are more difficult on an ortholinear layout, and are inconsistently accessible using assymetric or 'A' staggering. I argue that through strategic letter placement and stagger, Tukey affords a range of touch type deviations that keep your wrists at a comfortable angle and not bent inwards. Using touch type deviations, there are no bigrams that appear with any frequency in modern english which necessitate same finger up/down motion which would bend your wrists in the wrong direction. All other bigrams and most common trigrams are typed using alternating fingers or same hand rolls, which are easy to execute in any stagger arrangement. 
 
 ### Inward Finger Rolls
 
