@@ -107,8 +107,8 @@ So let's be real here. If you're looking to improve your typing speed and accura
 
 So why learn this layout? I boil it down to two reasons: 
 
-1 It's the future of work
-2 Expressivity and peak performance
+- 1 It's the future of work
+- 2 Expressivity and peak performance
 
 In the beginning when keyboards were first designed, some were actually based off pianos. The first patent for a QWERTY typerwriter (prequel to the keyboard) belongs to Christopher Latham Sholes and it looks like this:
 
