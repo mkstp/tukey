@@ -30,6 +30,10 @@ So if the repeat key exists to type DLB's, then why are there other duplicate ke
 - 'S' helps with 'SW' and 'WS' when typing words like 'answer', 'crews', 'switch'
 - 'T' helps with 'PT' when typing words like 'accept', 'option', and 'captain'
 
+### Trills
+
+A trill is a rapid alternation between two keys on different fingers. Some of the most common trigrams, such as 'ERE' and 'ITI', are trills. As you learn to type faster, your trill speed will approach the limits of your DLB speed. Duplicate keys allow you to turn trigrams into three-finger alternations instead of trills, which removes this limitation for the select keys. For example, other common trigrams like 'ONO' and 'TIT' can be typed faster if both 'O' and 'T' keys are used.  
+
 ### Column Extensions
 
 From a 40% ortholinear keyboard with 48 keys, take the 3 bottom keys from the left and right side of the board and move them to the top of the board where they are more easily accessed by your extended index, middle, and ring fingers. This upward column extension mimics a columnar stagger model for keyplacement but preserves the same number of keys. But unlike the straight 40%, this new top row of keys affords a more natural range of motion using your longest/strongest fingers without needing to translate or rotate your wrist outward.
